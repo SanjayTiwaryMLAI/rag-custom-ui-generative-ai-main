@@ -45,7 +45,10 @@ export const SourceDocumentModal = memo(({ sourceDocumentsData }: Props) => {
                       >
                         <div className="px-6 py-4">
                           <div className="font-semibold text-sm mb-2">
-                            {sourceDoc.title}
+                            {sourceDoc.location}
+                          </div>
+                          <div className="font-semibold text-sm mb-2">
+                            {sourceDoc.excerpt}
                           </div>
                           <a
                             className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600 text-xs"
